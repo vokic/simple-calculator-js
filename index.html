@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+    <form>
+      Vrednost 1: <input type="text" id="vrednost1"><br>
+      Vrednost 2: <input type="text" id="vrednost2"><br>
+      Računska operacija:
+      <select id="operacija"><br>
+        <option value="sab">Dodaj</option>
+        <option value="odu">Oduzmi</option>
+        <option value="del">Podeli</option>
+        <option value="mno">Pomnoži</option>
+      </select><br>
+      <button type="button" onclick="calc()">Izračunaj</button>
+    </form>
+
+    <div id="rezultat"></div>
+
+  </body>
+  <script src="main.js"></script>
+</html>
